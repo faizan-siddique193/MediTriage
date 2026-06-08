@@ -1,0 +1,43 @@
+# ==========================================
+# Crucial Security & Local Environment Files
+# ==========================================
+.env
+.env.local
+.env.*
+*.env
+
+# ==========================================
+# Virtual Environments (Dependencies)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+lib/
+bin/
+include/
+
+# ==========================================
+# Python Bytecode and Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# IDEs and Text Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db

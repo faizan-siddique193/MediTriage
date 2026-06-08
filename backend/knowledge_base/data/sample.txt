@@ -1,0 +1,19 @@
+Condition: Meningitis
+Symptoms: severe headache, fever, neck stiffness, confusion, sensitivity to light.
+Severity: EMERGENCY. Immediate medical attention required. Can be fatal within hours.
+
+Condition: Migraine
+Symptoms: moderate to severe throbbing headache, usually one-sided, nausea, sensitivity to light and sound. Can be accompanied by fever if there is an unrelated illness.
+Severity: MODERATE. Home monitoring, rest, hydration. If worst headache of life, seek emergency care.
+
+Condition: Common Cold
+Symptoms: runny nose, sore throat, mild cough, mild fatigue, low-grade fever, mild headache.
+Severity: MILD. Home monitoring, rest, hydration.
+
+Condition: COVID-19
+Symptoms: fever, dry cough, shortness of breath, loss of taste or smell, fatigue, headache.
+Severity: MODERATE to URGENT depending on breathing difficulty. If breathing is very difficult, it is an EMERGENCY.
+
+Condition: Tension Headache
+Symptoms: mild to moderate dull, aching head pain, sensation of tightness or pressure across forehead or on sides/back of head, tenderness on scalp, neck, and shoulder muscles.
+Severity: MILD. Rest, over-the-counter pain relief, stress management.
