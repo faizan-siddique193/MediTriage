@@ -17,6 +17,12 @@ MediTriage is an AI-powered medical symptom triage application. It turns a user'
 - Optional IP-based location fallback using IP-API when the user does not provide a city or country.
 - Optional n8n webhook mode for routing triage requests through an external workflow.
 
+<img width="834" height="433" alt="image" src="https://github.com/user-attachments/assets/0320117a-96d5-4fd2-895a-e29421f88fa0" />
+<img width="850" height="418" alt="image" src="https://github.com/user-attachments/assets/2a5e230c-c442-491f-a886-3d28094312cf" />
+<img width="835" height="388" alt="image" src="https://github.com/user-attachments/assets/21a102f3-8ff7-4af6-9ca0-025c82abbfbf" />
+
+
+
 ## Architecture
 
 
