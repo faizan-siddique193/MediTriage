@@ -19,23 +19,42 @@ MediTriage is an AI-powered medical symptom triage application. It turns a user'
 
 ## Architecture
 
-```text
-React/Vite frontend
-        |
-        | POST /triage
-        v
-FastAPI
-        |
-        v
-LangGraph pipeline
-  preprocess location
-        |
-  symptom analysis + medical knowledge + risk assessment
-        |
-  doctor finder
-        |
-  final report synthesis
+
+```mermaid
+flowchart TD
+    A["React / Vite Frontend"] -->|"POST /triage"| B["FastAPI"]
+    B --> C
+
+    subgraph C["LangGraph Pipeline"]
+        direction TB
+        D["Preprocess Location"]
+        E["Symptom Analysis"]
+        F["Medical Knowledge"]
+        G["Risk Assessment"]
+        H["Doctor Finder"]
+        I["Final Report Synthesis"]
+
+        D --> E
+        D --> F
+        D --> G
+        E --> H
+        F --> H
+        G --> H
+        H --> I
+    end
+
+    C -->|"Triage report"| B
+    B -->|"JSON response"| A
 ```
+
+I showed the three analysis nodes as parallel branches that merge into the doctor finder. If they actually run sequentially, use this inside the subgraph instead:
+
+```mermaid
+flowchart TD
+    D["Preprocess Location"] --> E["Symptom Analysis"] --> F["Medical Knowledge"] --> G["Risk Assessment"] --> H["Doctor Finder"] --> I["Final Report Synthesis"]
+```
+
+GitHub renders Mermaid blocks natively in README files, so paste either one as is.
 
 ## Requirements
 
